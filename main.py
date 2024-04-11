@@ -6,4 +6,4 @@ def main(page: ft.Page):
     solitaire=Solitaire()
     page.add(solitaire)
 
-ft.app(target=main)
+ft.app(target=main,assets_dir="images")
